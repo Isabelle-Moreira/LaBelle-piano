@@ -1,5 +1,5 @@
 # LaBelle piano
-Página interativa de piano e partitura! 🎹🎼 
+Página desktop interativa de piano e partitura! 🎹🎼 
 ## Tecnologias utilizadas
 - HTML
 - CSS
