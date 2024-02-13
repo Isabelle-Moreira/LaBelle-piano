@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Labelle | piano</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header><img src="./assets/logo-labelle.png"> LaBelle Piano</header>
+  <section class="carousel-sheet-music">
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://canone.com.br/images/stories/users/file/instrumentos/teclado/musicas/primeiras/brilha_brilha_estrelinha.png"
+            class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://canone.com.br/images/stories/users/file/instrumentos/teclado/musicas/primeiras/ode_a_alegria.png"
+            class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://canone.com.br/images/stories/users/file/instrumentos/teclado/musicas/primeiras/oh_minas_gerais.png"
+            class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <section class="piano">
+    <section class="controls">
+      <h1>LaBelle Piano</h1>
+      <label class="checkbox-label">
+        Mostra notas musicais
+        <span class="switcher">
+          <span class="switcher-button"></span>
+        </span>
+        <input type="checkbox" class="checkbox-keys" hidden>
+      </label>
+    </section>
+    <section class="piano-keys disabled-keys">
+      <div class="key white" data-nota="1"><span>DÓ</span></div>
+      <div class="key black" data-nota="2"><span>DÓ#</span></div>
+      <div class="key white" data-nota="3"><span>RÉ</span></div>
+      <div class="key black" data-nota="4"><span>RÉ#</span></div>
+      <div class="key white" data-nota="5"><span>MI</span></div>
+      <div class="key white" data-nota="6"><span>FÁ</span></div>
+      <div class="key black" data-nota="7"><span>FA#</span></div>
+      <div class="key white" data-nota="8"><span>SOL</span></div>
+      <div class="key black" data-nota="9"><span>SOL#</span></div>
+      <div class="key white" data-nota="10"><span>LÁ</span></div>
+      <div class="key black" data-nota="11"><span>LA#</span></div>
+      <div class="key white" data-nota="12"><span>SI</span></div>
+      <div class="key white" data-nota="13"><span>DÓ</span></div>
+      <div class="key black" data-nota="14"><span>DÓ#</span></div>
+      <div class="key white" data-nota="15"><span>RÉ</span></div>
+      <div class="key black" data-nota="16"><span>RÉ#</span></div>
+      <div class="key white" data-nota="17"><span>MI</span></div>
+      <div class="key white" data-nota="18"><span>FÁ</span></div>
+      <div class="key black" data-nota="19"><span>FA#</span></div>
+      <div class="key white" data-nota="20"><span>SOL</span></div>
+      <div class="key black" data-nota="21"><span>SOL#</span></div>
+      <div class="key white" data-nota="22"><span>LÁ</span></div>
+      <div class="key black" data-nota="23"><span>LA#</span></div>
+      <div class="key white" data-nota="24"><span>SI</span></div>
+    </section>
+  </section>
+
+  <footer>    <div class="container-fluid px-0">
+    <div class="text-justify p-3" id="rodape">
+        <p>© LaBelle Piano 2024  </p>
+        <p>Créditos das partituras: <a href="https://canone.com.br/teclado-e-piano/214-primeiras-musicas-no-teclado-ou-piano">Cânone Musical</a></p>
+    </div>
+</div></footer>
+
+</body>
+<script src="./js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</html>
